@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sq"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Website-i im i parë online!</title>
+
+    <style>
+        body {
+            background-color: pink;
+            text-align: center;
+            font-family: Arial;
+            padding: 50px;
+        }
+
+  button {
+            padding: 10px;
+            background-color: purple;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Bota e Fëmijëve</h1>
+    <p>Mëso dhe argëtohu!</p>
+
+    <button onclick="mesazhi()">Kliko këtu!</button>
+
+    <p id="rezultati">Bravo! Ti je shumë i/e zgjuar! ⭐</p>
+    <script>
+        function mesazhi() {
+            document.getElementById("rezultati").innerHTML =
+                "Bravo! Ti je shumë i/e zgjuar! ⭐";
+        }
+    </script>
+
+
+</body></html>
